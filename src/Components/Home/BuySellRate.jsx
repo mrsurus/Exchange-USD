@@ -2,8 +2,11 @@ import React from 'react'
 
 function BuySellRate() {
     return (
-        <div>
-            <div className="overflow-x-auto w-3/4 mx-auto">
+        <div className=' '>
+            <div className=' bg-blue-600 mb-1'>
+                <p className=' text-white font-bold text-lg p-2'>Today Buy Sell Rate</p>
+            </div>
+            <div className="overflow-x-auto  ">
                 <table className="table border">
                     {/* head */}
                     <thead className=' '>

@@ -1,20 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logo from '../../../assets/logo-2.png'
 
 function Navbar() {
     const user = null
 
   return (
     <div className=' '>
-            <header aria-label="Site Header" className="  bg-gray-900 ">
+            <header aria-label="Site Header" className="  bg-blue-600 ">
                 <div className="mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex h-16 items-center justify-between">
                         <div className="md:flex md:items-center md:gap-12">
-                            <a className="ml-8 block text-white" href="/">
-                                <span className="sr-only">Home</span>
-                                <p className="text-2xl font-bold text-lime-400">Ex-Change </p>
-
-                            </a>
+                            <img className='w-36' src={logo} alt="" />
                         </div>
 
                         <div className="hidden md:block">
