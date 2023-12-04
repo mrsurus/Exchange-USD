@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Function() {
     return (
@@ -33,7 +34,7 @@ function Function() {
                     </div>
                 </div>
                 <div className='flex mx-auto mt-5'>
-                    <button className='btn btn-primary text-white w-32 mx-auto'>Exchange</button>
+                    <Link to='/addinfo' className='btn btn-primary text-white w-32 mx-auto'>Exchange</Link>
                 </div>
             </form>
         </div>

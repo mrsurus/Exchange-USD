@@ -6,6 +6,7 @@ import Home from '../Home/Home'
 import Login from '../Login/Login'
 import Register from '../Register/Register'
 import DispalyError from '../Shared/DisplayError/DisplayError'
+import AdditionalInfo from '../ExChaProcess/AdditionalInfo'
 
 const router = createBrowserRouter([
     {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
             {
                 path: '/register',
                 element: <Register></Register>
+            }, 
+            {
+                path: '/addinfo',
+                element: <AdditionalInfo></AdditionalInfo>
             }
         ]
 
