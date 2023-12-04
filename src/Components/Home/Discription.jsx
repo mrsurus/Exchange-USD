@@ -2,8 +2,8 @@ import React from 'react'
 
 function Discription() {
   return (
-    <div className=' p-10'>
-        <div className='text-left font-bold w-3/4 mx-auto'>
+    <div className=' shadow-2xl mt-10  p-10'>
+        <div className='text-left font-bold '>
             <p className='mb-3'>Send = আপনি যা দিবেন </p>
             <p className='mb-3'>Receive = আপনি যা পেতে চান </p>
             <p className='mb-3'>(Submit পেজে Total Amount ত যে পরিমান টাকা/ডলার আসে তা পরিশোধ করতে হবে )</p>

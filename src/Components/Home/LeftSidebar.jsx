@@ -15,11 +15,11 @@ function LeftSidebar() {
             </div>
                         {/* our reserve section */}
 
-            <div className='bg-blue-600 p-5 mt-5'>
+            <div className='border shadow-2xl p-10 mt-10'>
                 <div className=' bg-black rounded '>
                     <p className=' text-white font-bold text-lg p-2 text-center'>Our Reserve</p>
                 </div>
-                <div className='bg-white flex gap-2 mt-2 p-2 rounded  '>
+                <div className='bg-blue-500 text-white flex gap-2 mt-2 p-2 rounded  '>
                     <div className="avatar m-2">
                         <div className="w-9 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                             <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
@@ -30,7 +30,7 @@ function LeftSidebar() {
                         <p className=''>315 USD</p>
                     </div>
                 </div>
-                <div className='bg-white flex gap-2 mt-2 p-2 rounded  '>
+                <div className='bg-blue-500 text-white flex gap-2 mt-2 p-2 rounded  '>
                     <div className="avatar m-2">
                         <div className="w-9 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                             <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
@@ -41,7 +41,7 @@ function LeftSidebar() {
                         <p className=''>315 USD</p>
                     </div>
                 </div>
-                <div className='bg-white flex gap-2 mt-2 p-2 rounded  '>
+                <div className='bg-blue-500 text-white flex gap-2 mt-2 p-2 rounded  '>
                     <div className="avatar m-2">
                         <div className="w-9 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                             <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />

@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <div className=' '>
-            <header aria-label="Site Header" className="  bg-blue-600 ">
+            <header aria-label="Site Header" className="  bg-blue-500 ">
                 <div className="mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex h-16 items-center justify-between">
                         <div className="md:flex md:items-center md:gap-12">
@@ -18,15 +18,15 @@ function Navbar() {
                             <nav aria-label="Site Nav">
                                 <ul className="flex items-center gap-6 text-sm">
 
-                                    <li><Link to='/' className="text-base-300 font-semibold font-3xl transition hover:text-500/75" >Exchange</Link></li>
+                                    <li><Link to='/' className="text-white font-semibold font-3xl transition hover:text-500/75" >Exchange</Link></li>
                                     {user?.uid &&
                                         <>
-                                            <li><Link to='/quesans' className="text-base-300 font-semibold font-3xl transition hover:text-gray-500/75" >Q/A</Link></li>
-                                            <li><Link to='/mycomment' className="text-base-300 font-semibold font-3xl transition hover:text-500/75" >My Comments</Link></li>
+                                            <li><Link to='/quesans' className="text-white font-semibold font-3xl transition hover:text-gray-500/75" >Q/A</Link></li>
+                                            <li><Link to='/mycomment' className="text-white font-semibold font-3xl transition hover:text-500/75" >My Comments</Link></li>
                                         </>
                                     }
-                                    <li><Link to='/blog' className="text-base-300 font-semibold font-3xl transition hover:text-gray-500/75" >Testimonials</Link></li>
-                                    <li><Link to='/about' className="text-base-300 font-semibold font-3xl transition hover:text-gray-500/75" >Contact Us</Link></li>
+                                    <li><Link to='/blog' className="text-white font-semibold font-3xl transition hover:text-gray-500/75" >Testimonials</Link></li>
+                                    <li><Link to='/about' className="text-white font-semibold font-3xl transition hover:text-gray-500/75" >Contact Us</Link></li>
 
                                 </ul>
                             </nav>

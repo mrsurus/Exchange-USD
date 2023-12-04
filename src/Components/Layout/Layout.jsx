@@ -5,7 +5,7 @@ import Footer from '../Shared/Footer/Footer'
 
 function Layout() {
   return (
-    <div>
+    <div className='px-5'>
         <Navbar></Navbar>
         <Outlet></Outlet>
         <Footer></Footer>
